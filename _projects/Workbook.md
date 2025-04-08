@@ -41,10 +41,10 @@ The data was grouped by state, latitude, and longitude to calculate the number o
 This heatmap highlights hotspots like the Pacific Northwest, known for its Bigfoot lore. The interactivity allows users to explore specific states or regions.
 
 ```
-<vegachart schema-url="/assets/json/Plot 1.json" style="width: 100%"></vegachart>
+<vegachart schema-url="https://github.com/hyunjilee2/hyunjilee2.github.io/blob/main/assets/json/Plot%201.json" style="width: 100%"></vegachart>
 ```
 
-<vegachart schema-url="/assets/json/Plot 1.json" style="width: 100%"></vegachart>
+<vegachart schema-url="https://github.com/hyunjilee2/hyunjilee2.github.io/blob/main/assets/json/Plot%201.json" style="width: 100%"></vegachart>
 
 In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
 
