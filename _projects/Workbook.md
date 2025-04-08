@@ -118,14 +118,3 @@ Below is where we can put some links to both the data and the analysis code as b
 <div class="right">
 {% include elements/button.html link="https://github.com/hyunjilee2/hyunjilee2.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
-
-Bigfoot Sightings Visualizations
-
-Introduction
-This assignment involves creating two visualizations using Python, Altair, and Vega-Lite based on the BFRO dataset. The dataset contains detailed information about Bigfoot sightings, including location, date, classification, and environmental conditions. The goal is to uncover patterns in geographical distribution and temporal trends of sightings. Both visualizations include interactivity beyond basic pan/zoom functionality.
-
-
-
-
-
-
