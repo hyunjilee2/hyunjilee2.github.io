@@ -48,6 +48,9 @@ This heatmap highlights hotspots like the Pacific Northwest, known for its Bigfo
 
 ## Visualization 2: Temporal Trends in Bigfoot Sightings
 
+
+<vegachart schema-url="/assets/json/Plot 2.json" style="width: 100%"></vegachart>
+
 **Description**
 This visualization examines how Bigfoot sightings have changed over time. It aggregates sightings by year and separates them by classification (e.g., Class A or Class B).
 
@@ -73,13 +76,6 @@ The `date` column was converted to datetime format, and the year was extracted. 
 The line chart reveals a peak in Bigfoot reports during the late 1990s and early 2000s. The interactive legend enables users to focus on specific classifications, making it easier to analyze trends.
 
 
-```
-<vegachart schema-url="/assets/json/Plot 2.json" style="width: 100%"></vegachart>
-```
-
-<vegachart schema-url="/assets/json/Plot 2.json" style="width: 100%"></vegachart>
-
-
 ## Discussion of Interactivity
 **Heatmap**:
 
@@ -96,16 +92,6 @@ Tooltips display exact counts for each year and classification, offering precise
 
 Below is where we can put some links to both the data and the analysis code as buttons:
 
-```
-<div class="left">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://github.com/hyunjilee2/hyunjilee2.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
-</div>
-
-```
 
 <!-- these are written in a combo of html and liquid --> 
 
