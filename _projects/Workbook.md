@@ -16,6 +16,9 @@ custom_js:
 The dataset used for this assignment is publicly available at the following [URL](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv).
 
 ## Visualization 1: Geographic Heatmap of Bigfoot Sightings
+
+<vegachart schema-url="/assets/json/Plot 1.json" style="width: 100%"></vegachart>
+
 **Description**
 This visualization shows the density of Bigfoot sightings across the United States. Each point represents a sighting, with its size and color encoding the density of sightings in that area.
 
@@ -39,14 +42,6 @@ The data was grouped by state, latitude, and longitude to calculate the number o
 
 **Output**
 This heatmap highlights hotspots like the Pacific Northwest, known for its Bigfoot lore. The interactivity allows users to explore specific states or regions.
-
-```
-<vegachart schema-url="/assets/json/Plot 1.json" style="width: 100%"></vegachart>
-```
-
-<vegachart schema-url="/assets/json/Plot 1.json" style="width: 100%"></vegachart>
-
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
 
 
 ## Visualization 2: Temporal Trends in Bigfoot Sightings
@@ -101,18 +96,19 @@ Below is where we can put some links to both the data and the analysis code as b
 
 ```
 <div class="left">
-{% include elements/button.html link="https://github.com/hyunjilee2.github.io/assets/json/Plot 1.json" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="The Data" %}
 </div>
 
 <div class="right">
 {% include elements/button.html link="https://github.com/hyunjilee2/hyunjilee2.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
+
 ```
 
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/hyunjilee2/hyunjilee2.github.io/blob/main/assets/json/Plot%201.json" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="The Data" %}
 </div>
 
 <div class="right">
