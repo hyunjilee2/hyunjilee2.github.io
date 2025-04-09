@@ -1,23 +1,26 @@
 ---
 name: Workbook HW5
-tools: [Python, HTML, vega-lite]
-image: assets/pngs/cars.png
+tools: [Python, HTML, altair, vega-lite]
+image: assets/json/Plot 1.json
 description: This is a "Bigfoot Sightings Visualizations" project that uses vega-lite for interactive viz!
 custom_js:
   - vega.min
   - vega-lite.min
   - vega-embed.min
   - justcharts
+permalink: /projects/Workbook/index.html
 ---
-
-
 # Bigfoot Sightings Visualizations
 
-The dataset used for this assignment is publicly available at the following [URL](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv).
+This assignment involves creating two visualizations using Python, Altair, and Vega-Lite based on the BFRO dataset. The dataset contains detailed information about Bigfoot sightings, including location, date, classification, and environmental conditions. The goal is to uncover patterns in geographical distribution and temporal trends of sightings. Both visualizations include interactivity beyond basic pan/zoom functionality.
+
+---
 
 ## Visualization 1: Geographic Heatmap of Bigfoot Sightings
 
 <vegachart schema-url="/assets/json/Plot 1.json" style="width: 100%"></vegachart>
+
+<iframe src="/assets/json/Plot 1.json" width="100%" height="600" style="border:none;"></iframe>
 
 **Description**
 This visualization shows the density of Bigfoot sightings across the United States. Each point represents a sighting, with its size and color encoding the density of sightings in that area.
@@ -65,7 +68,7 @@ An interactive legend allows users to toggle visibility for specific classificat
 Tooltips display exact counts for each year and classification.
 
 **Data Transformation**
-The date column was converted to datetime format, and the year was extracted. Data was then grouped by year and classification type to calculate annual counts.
+The `date` column was converted to datetime format, and the year was extracted. Data was then grouped by year and classification type to calculate annual counts.
 
 **Output**
 The line chart reveals a peak in Bigfoot reports during the late 1990s and early 2000s. The interactive legend enables users to focus on specific classifications, making it easier to analyze trends.
