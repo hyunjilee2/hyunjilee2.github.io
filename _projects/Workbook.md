@@ -1,7 +1,7 @@
 ---
 name: Workbook HW5
 tools: [Python, HTML, altair, vega-lite]
-image: assets/json/Plot 1.json
+image: assets/json/Plot 2.json
 description: This is a "Bigfoot Sightings Visualizations" project that uses vega-lite for interactive viz!
 custom_js:
   - vega.min
@@ -19,8 +19,6 @@ This assignment involves creating two visualizations using Python, Altair, and V
 ## Visualization 1: Geographic Heatmap of Bigfoot Sightings
 
 <vegachart schema-url="/assets/json/Plot 1.json" style="width: 100%"></vegachart>
-
-<iframe src="/assets/json/Plot 1.json" width="100%" height="600" style="border:none;"></iframe>
 
 **Description**
 This visualization shows the density of Bigfoot sightings across the United States. Each point represents a sighting, with its size and color encoding the density of sightings in that area.
