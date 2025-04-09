@@ -112,7 +112,7 @@ Below is where we can put some links to both the data and the analysis code as b
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/hyunjilee2.github.io/assets/json/Plot 1.json" text="The Data" %}
+{% include elements/button.html link="https://github.com/hyunjilee2/hyunjilee2.github.io/blob/main/assets/json/Plot%201.json" text="The Data" %}
 </div>
 
 <div class="right">
