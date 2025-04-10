@@ -91,9 +91,6 @@ The interactive legend lets users toggle visibility for specific classifications
 Tooltips display exact counts for each year and classification, offering precise insights.
 
 
-Below is where we can put some links to both the data and the analysis code as buttons:
-
-
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
