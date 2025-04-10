@@ -18,8 +18,8 @@ This assignment involves creating two visualizations using Python, Altair, and V
 
 ## Visualization 1: Geographic Heatmap of Bigfoot Sightings
 
-<vegachart schema-url="/assets/json/Plot 1.json" style="width: 100%"></vegachart>
-<vegachart schema-url="https://github.com/hyunjilee2/hyunjilee2.github.io/blob/main/assets/json/Plot%201.json" style="width: 100%"></vegachart>
+<vegachart schema-url="/assets/json/Plot%201.json" style="width: 100%"></vegachart>
+<vegachart schema-url="https://github.com/hyunjilee2/hyunjilee2.github.io/assets/json/Plot%201.json" style="width: 100%"></vegachart>
 <vegachart schema-url="https://vega.github.io/schema/vega-lite/v5.20.1.json" style="width: 100%"></vegachart>
 
 **Description**
